@@ -1,7 +1,7 @@
 #!/bin/sh
 
 CURRENT_DIR=($(pwd))
-# NB_PROCESS_MAX=5
+NB_PROCESS_MAX=1
 
 for ((i = 0; i < NB_PROCESS_MAX; i++))
 do
